@@ -27,15 +27,18 @@
     <p>Hébergé sur le site de Créajeux. Décompresse l’archive, puis lance l’exécutable.</p>
   </div>
   <div class="prose">
-    <!-- Pour ajouter une capture : mets l’image dans le dossier "images" puis décommente :
-    <figure class="shot"><img src="images/fish-n-ship.png" alt="Capture de Fish n’ Ship"><figcaption>Légende</figcaption></figure>
-    -->
+    <figure class="shot"><video controls playsinline preload="metadata" poster="images/fish-n-ship-1.jpg" width="1280" height="720"><source src="videos/fish-n-ship.mp4" type="video/mp4">Ta navigation ne lit pas la vidéo.</video><figcaption>Extrait en jeu.</figcaption></figure>
     <h2>Mon rôle</h2>
     <p>J’ai réalisé toute l’IA des ennemis, ainsi que le mouvement procédural des tentacules du kraken.</p>
     <h2>IA des ennemis : machine à états</h2>
     <p>Chaque ennemi fonctionne avec une machine à états : un seul état est actif à la fois, et des transitions le font passer à un autre en fonction de la situation. Cette approche garde le comportement lisible, facile à déboguer et simple à étendre quand on ajoute un nouveau type d’ennemi.</p>
     <h2>Tentacules du kraken : mouvement procédural</h2>
     <ul><li><strong>Chaînes d’IK (cinématique inverse) :</strong> chaque tentacule est une chaîne de segments dont l’orientation est calculée pour atteindre une cible, sans animation préenregistrée.</li><li><strong>Damping :</strong> un amortissement lisse les mouvements pour obtenir un rendu organique et éviter les à-coups.</li></ul><p>Le résultat est un mouvement qui réagit à la situation en temps réel au lieu de rejouer une animation fixe.</p>
+  <h2>Captures</h2>
+    <div class="shots">
+      <figure class="shot"><img src="images/fish-n-ship-1.jpg" alt="Fish n’ Ship : un banc de poissons sous l’eau" width="1600" height="900" loading="lazy"><figcaption>Les fonds marins et l’interface en jeu.</figcaption></figure>
+      <figure class="shot"><img src="images/fish-n-ship-2.jpg" alt="Fish n’ Ship : un requin face au joueur" width="1600" height="905" loading="lazy"><figcaption>Un requin face au joueur.</figcaption></figure>
+    </div>
   </div>
   <div class="pnav">
     <a class="btn" href="index.html#projets">← Retour aux projets</a>

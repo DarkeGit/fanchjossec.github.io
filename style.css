@@ -71,3 +71,6 @@ footer a{margin-right:1.25rem}
 
 .dl{padding:2rem 0;border-bottom:1px solid var(--line)}
 .dl p{margin:.75rem 0 0;color:var(--muted);font-size:.95rem}
+.shot video{width:100%;border-radius:12px;border:1px solid var(--line);display:block;background:#000}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:2rem 0}
+.shots .shot{margin:0}
