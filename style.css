@@ -68,3 +68,6 @@ footer a{margin-right:1.25rem}
 .shot figcaption{color:var(--muted);font-size:.9rem;margin-top:.5rem}
 .pnav{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:2rem 0 1rem}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn:hover,a.proj:hover .go{transform:none}}
+
+.dl{padding:2rem 0;border-bottom:1px solid var(--line)}
+.dl p{margin:.75rem 0 0;color:var(--muted);font-size:.95rem}
