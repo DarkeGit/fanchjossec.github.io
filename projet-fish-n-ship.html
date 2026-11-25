@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fish n’ Ship – Fanch Jossec</title>
+<meta name="description" content="Un jeu d’aventure multijoueur de type friendslop, développé sur Unity en 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <strong><a href="index.html">Fanch Jossec</a></strong>
+    <nav><a href="index.html#projets">Projets</a><a href="index.html#contact">Contact</a></nav>
+  </header>
+  <a class="back" href="index.html#projets">← Tous les projets</a>
+  <div class="phero">
+    <h1>Fish n’ Ship</h1>
+    <p class="lead">Un jeu d’aventure multijoueur de type friendslop, développé sur Unity en 2026.</p>
+  </div>
+  <dl class="meta"><div><dt>Moteur</dt><dd>Unity</dd></div><div><dt>Langage</dt><dd>C#</dd></div><div><dt>Genre</dt><dd>Aventure / Friendslop, multijoueur</dd></div><div><dt>Rôle</dt><dd>IA des ennemis, tentacules du kraken</dd></div></dl>
+  <div class="prose">
+    <!-- Pour ajouter une capture : mets l’image dans le dossier "images" puis décommente :
+    <figure class="shot"><img src="images/fish-n-ship.png" alt="Capture de Fish n’ Ship"><figcaption>Légende</figcaption></figure>
+    -->
+    <h2>Mon rôle</h2>
+    <p>J’ai réalisé toute l’IA des ennemis, ainsi que le mouvement procédural des tentacules du kraken.</p>
+    <h2>IA des ennemis : machine à états</h2>
+    <p>Chaque ennemi fonctionne avec une machine à états : un seul état est actif à la fois, et des transitions le font passer à un autre en fonction de la situation. Cette approche garde le comportement lisible, facile à déboguer et simple à étendre quand on ajoute un nouveau type d’ennemi.</p>
+    <h2>Tentacules du kraken : mouvement procédural</h2>
+    <ul><li><strong>Chaînes d’IK (cinématique inverse) :</strong> chaque tentacule est une chaîne de segments dont l’orientation est calculée pour atteindre une cible, sans animation préenregistrée.</li><li><strong>Damping :</strong> un amortissement lisse les mouvements pour obtenir un rendu organique et éviter les à-coups.</li></ul><p>Le résultat est un mouvement qui réagit à la situation en temps réel au lieu de rejouer une animation fixe.</p>
+  </div>
+  <div class="pnav">
+    <a class="btn" href="index.html#projets">← Retour aux projets</a>
+    <a class="btn main" href="index.html#contact">Me contacter</a>
+  </div>
+  <footer>
+    <div><a href="https://github.com/DarkeGit">GitHub</a><a href="https://www.linkedin.com/in/fanch-jossec-746255350/">LinkedIn</a></div>
+    <span>© 2026 Fanch Jossec · Nîmes</span>
+  </footer>
+</div>
+</body>
+</html>
